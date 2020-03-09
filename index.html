@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Anton&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <h1>Calculator V 0.0.1</h1>
+    </header>
+
+    <section>
+        <div class="calculator">
+            <div class="anzeige">
+                <input type="text" id="screen" placeholder="0" name="screen" style="width:96%"><br>
+            </div>
+            <div class="keys">
+
+                <input type="button" name="*" value=" x " onclick="update('*')" id="kk">
+                <input type="button" name="/" value=" / " onclick="update('/')" id="kk">
+                <input type="button" name="-" value=" - " onclick="update('-')" id="kk">
+                <input type="button" name="+" value=" + " onclick="update('+')" id="kk">
+                <br>
+                <input type="button" name="." value=" . " onclick="update('.')" id="kk">
+                <input type="button" name="9" value=" 9 " onclick="update(9)" id="kk">
+                <input type="button" name="8" value=" 8 " onclick="update(8)" id="kk">
+                <input type="button" name="7" value=" 7 " onclick="update(7)" id="kk">
+                <br>
+                <input type="button" name="6" value=" 6 " onclick="update(6)" id="kk">
+                <input type="button" name="5" value=" 5 " onclick="update(5)" id="kk">
+                <input type="button" name="4" value=" 4 " onclick="update(4)" id="kk">
+                <input type="button" name="3" value=" 3 " onclick="update(3)" id="kk">
+                <br>
+                <input type="button" name="2" value=" 2 " onclick="update(2)" id="kk">
+                <input type="button" name="1" value=" 1 " onclick="update(1)" id="kk">
+                <input type="button" name="0" value=" 0 " onclick="update(0)" id="kk">
+                <input type="button" name="=" value=" = " onclick="result();" id="kk">
+                <br>
+                <input type="button" name="c" value=" c " onclick="form_reset()" ; id="kk">
+            </div>
+        </div>
+    </section>
+    <script src="assets/js/main.js"></script>
+</body>
+
+</html>
